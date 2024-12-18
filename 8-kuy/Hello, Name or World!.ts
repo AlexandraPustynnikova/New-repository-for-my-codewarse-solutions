@@ -11,7 +11,7 @@ Assuming that name is a String and it checks for user typos to return a name wit
     * With `name` not given
 or `name` = ""        => return "Hello, World!"*/
 
-function hello(name:string) {
+function hello(name:string):string {
     if (name) {
         const lowerCaseName = name.toLowerCase()
         const firstChar = lowerCaseName.charAt(0)

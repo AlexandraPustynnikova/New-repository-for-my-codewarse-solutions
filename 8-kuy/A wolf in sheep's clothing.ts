@@ -17,7 +17,7 @@ Input: ["sheep", "sheep", "wolf"]
 Output: "Pls go away and stop eating my sheep"
 */
 
-function warnTheSheep(queue) {
+function warnTheSheep(queue:string[]):string {
     if (queue[queue.length - 1] === 'wolf') {
         return 'Pls go away and stop eating my sheep'
     } else {
